@@ -54,8 +54,8 @@ EXPERIENCIA: {self.experiencia}"""
 
 
 
-orco = personaje("orco")
-jugador = personaje("guts")
+orco = Personaje("orco")
+jugador = Personaje("guts")
 
 jugador.estado = 120
 print(jugador.estado)
