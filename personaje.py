@@ -67,4 +67,3 @@ Si pierdes, perderás 30 puntos de experiencia y el orco ganará 50.
 Ingresa tu opción: 
 """))
 
-
