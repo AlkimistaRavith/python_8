@@ -14,6 +14,7 @@ prob = personaje.probabilidad(orco)
 opcion = Personaje.mostrar_dialogo(prob)
 count_w = 0
 count_l = 0
+opcion = 0
 
 while opcion == 1:
     resultado = "win" if random.uniform(0,100) < prob else "lose"
