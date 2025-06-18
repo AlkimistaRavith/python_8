@@ -9,11 +9,8 @@ class Personaje:
 
     @property
     def estado(self):
-        return f"""
-NOMBRE: {self.nombre}
-NIVEL: {self.nivel}
-EXPERIENCIA: {self.experiencia}"""
-
+        return f"NOMBRE: {self.nombre} | NIVEL: {self.nivel} | EXPERIENCIA: {self.experiencia}"
+    
     #Para modificar el estado
     @estado.setter
     def estado(self, exp):
@@ -67,6 +64,7 @@ Si pierdes, perderás 30 puntos de experiencia y el orco ganará 50.
 ¿Qué deseas hacer?
 1. Atacar
 2. Huir
-Ingresa tu opción: """))
+Ingresa tu opción: 
+"""))
 
 
